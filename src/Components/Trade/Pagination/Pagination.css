@@ -1,0 +1,32 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.paginate {
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.active.paginate {
+  color: green;
+}
+
+.paginate:hover {
+  background-color: var(--primary-bg);
+}
+
+.paginate a {
+  color: var(--secondary-text-color);
+}
+
+@media screen and (max-width: 800px) {
+  .pagination {
+    display: flex;
+  }
+
+  .paginate {
+    padding: 10px;
+  }
+}

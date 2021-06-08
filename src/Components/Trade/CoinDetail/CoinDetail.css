@@ -1,0 +1,137 @@
+.main-coin-detail {
+  background-color: var(--secondary-bg);
+}
+
+.coin-detail-banner {
+  background-image: linear-gradient(to right, #000000a9, #000000a9),
+    url("https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  padding: 100px 0;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.coin-detail-banner h2 {
+  font-size: 40px;
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.coin-detail-content {
+  width: 73%;
+  margin: 0 auto;
+  display: block;
+  padding: 20px 0;
+}
+
+/* styling the description section */
+.coin-detail-description {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.coin-detail-description {
+  padding-top: 30px;
+}
+
+.coin-detail-description .desc-first img {
+  width: 70%;
+  padding: 20px 0 0 20px;
+}
+
+.coin-detail-description .desc-second {
+  padding-top: 20px;
+}
+
+.coin-detail-description .desc-second h3 {
+  font-size: 30px;
+}
+
+.coin-detail-description .desc-second h3 span {
+  color: var(--tetiary-text-color);
+}
+
+/* styling the coin detail table */
+.coin-detail-table {
+  padding-top: 20px;
+}
+
+.coin-detail-table > h2 {
+  padding-bottom: 20px;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  padding: 10px 0;
+  text-align: center;
+  border-top: 1px solid gray;
+}
+
+.table-row div p {
+  font-weight: normal;
+}
+
+.table-row div h3 {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  .coin-detail-content {
+    width: 95%;
+  }
+
+  .coin-detail-description {
+    display: grid;
+    grid-template-columns: 0 90%;
+    padding-left: 20px;
+  }
+}
+
+/* Loading data */
+.loading-data {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 200px;
+}
+
+/* Coin detail chart */
+.coin-detail-chart {
+  width: 73%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.coin-detail-chart h4 {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  padding: 40px 0 20px;
+}
+
+.coin-detail-chart h4 span {
+  color: var(--tetiary-text-color);
+}
+
+/* Back button */
+.navigation-back {
+  margin-top: 20px;
+}
+
+.navigation-back a button {
+  padding: 3px 20px;
+  font-size: 15px;
+  background-color: var(--tetiary-text-color);
+  border: 1px solid var(--tetiary-text-color);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navigation-back a button:hover {
+  background-color: var(--primary-text-color);
+  border: 1px solid var(--primary-text-color);
+}

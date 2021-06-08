@@ -1,0 +1,13 @@
+.team-first {
+  background-image: url("https://images.pexels.com/photos/6801633/pexels-photo-6801633.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-position: bottom;
+}
+
+.team-second {
+  background-image: url("https://images.pexels.com/photos/6147221/pexels-photo-6147221.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-position: right;
+}
+
+.team-third {
+  background-image: url("https://images.pexels.com/photos/936082/pexels-photo-936082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}

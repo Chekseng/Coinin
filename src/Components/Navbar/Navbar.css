@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 200px 10px;
+  position: absolute;
+  width: 100%;
+  transition: all ease 0.9s;
+}
+
+.active.navbar {
+  position: fixed;
+  width: 100%;
+  background-image: var(--primary-gradient);
+  padding: 10px 200px;
+  transition: all ease 0.9s;
+  box-shadow: 1px 1px 15px 1px var(--secondary-text-color);
+}
+
+@media only screen and (max-width: 1000px) {
+  .active.navbar {
+    padding: 10px 30px;
+  }
+}

@@ -1,0 +1,43 @@
+.btn-nav {
+  background-image: var(--primary-gradient-reverse);
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.623);
+  border: none;
+  padding: 5px 20px;
+  font-size: 17px;
+}
+
+.btn-nav:hover {
+  background-image: var(--primary-gradient);
+}
+
+.btn-hero {
+  background-image: var(--primary-gradient);
+  border: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  transition: all ease 1.9s;
+}
+
+.btn-hero:hover {
+  background-image: var(--primary-gradient-reverse);
+  transition: all ease 1.9s;
+}
+
+.btn-contact {
+  background-image: var(--primary-gradient-reverse);
+  border: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  transition: all ease 1.9s;
+}
+
+.btn-contact:hover {
+  background-image: var(--primary-gradient-reverse);
+  transition: all ease 1.9s;
+}
+
+@media only screen and (max-width: 900px) {
+  .btn-nav {
+    display: none;
+  }
+}

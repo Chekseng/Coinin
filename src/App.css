@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Roboto+Condensed:wght@300;400;700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+:root {
+  --primary-gradient: linear-gradient(to right, #134e5e, #61966e);
+  --primary-gradient-reverse: linear-gradient(to right, #4aac6e, #1d976c);
+  --secondary-gradient: linear-gradient(to right, #134e5ef0, #61966ef0);
+  --primary-text-color: #ddd;
+  --secondary-text-color: #121312;
+  --tetiary-text-color: #36c76b;
+  --quatenary-text-color: #666;
+  --quinary-text-color: rgb(223, 223, 223);
+  --primary-bg: rgb(207, 233, 207);
+  --secondary-bg: rgb(243, 252, 243);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul,
+li {
+  list-style-type: none;
 }
 
-.App-link {
-  color: #61dafb;
+h1,
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: var(--secondary-text-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3,
+h4 {
+  font-family: "Titillium Web", sans-serif;
+  color: var(--primary-text-color);
+  letter-spacing: 2px;
+}
+
+p,
+span,
+i,
+button,
+input::placeholder,
+option,
+input,
+li,
+ul,
+td,
+tr,
+thead,
+tbody,
+table {
+  font-family: "Titillium Web", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }

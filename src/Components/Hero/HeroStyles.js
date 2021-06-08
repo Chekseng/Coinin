@@ -41,11 +41,16 @@ export const HeroBoxLeft = styled.article`
   @media only screen and (max-width:700px){
     padding: 100px 50px;
   }
+
 `
 
 export const HeroBoxLeftHeading = styled.h1`
   font-size: 45px;
   color: var(--primary-text-color);
+
+  @media screen and (max-width:500px){
+    font-size: 35px;
+  }
 `
 
 export const HeroBoxLeftSubHeading = styled.h3`
@@ -53,6 +58,10 @@ export const HeroBoxLeftSubHeading = styled.h3`
   font-weight: 500;
   padding: 20px 0;
   color: var(--primary-text-color);
+
+  @media screen and (max-width: 500px){
+    font-size: 17px;
+  }
 `
 
 export const ButtonBox = styled.div`

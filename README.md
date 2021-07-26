@@ -12,6 +12,8 @@ of these application with the graphs and tables available in this application.
 - react-router-dom
 - coingecko api
 - styled-components
+- axios
+- chart.js
 
 ### HOW TO USE
 

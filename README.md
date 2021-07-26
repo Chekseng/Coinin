@@ -24,6 +24,10 @@ of these application with the graphs and tables available in this application.
 run npm install or yarn install
 ```
 
+```
+yarn start
+```
+
 - head over to you browser and open localhost:3000
 - viola! enjoy the app.
 
